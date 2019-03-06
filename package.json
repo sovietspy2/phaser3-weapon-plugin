@@ -1,6 +1,6 @@
 {
-  "name": "phaser3-weapon-plugin",
-  "version": "1.0.0-beta.1",
+  "name": "@sovietspy2/phaser3-weapon-plugin",
+  "version": "1.0.0-beta.2",
   "description": "Weapon Plugin for Phaser 3",
   "main": "src/main.js",
   "scripts": {
@@ -13,21 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/16patsle/phaser3-weapon-plugin.git"
+    "url": "git+https://github.com/sovietspy2/phaser3-weapon-plugin.git"
   },
-  "author": "Patrick Sletvold",
+  "author": "SovietSpy2",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/16patsle/phaser3-weapon-plugin/issues"
-  },
-  "homepage": "https://github.com/16patsle/phaser3-weapon-plugin#readme",
+  "homepage": "https://github.com/sovietspy2/phaser3-weapon-plugin.git",
   "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.0-beta.3",
     "eslint": "^4.19.1",
     "http-server": "^0.11.1",
-    "webpack": "^3.10.0",
-    "@babel/core": "^7.0.0-beta.51",
-    "@babel/preset-env": "^7.0.0-beta.51",
-    "babel-loader": "^8.0.0-beta.3"
+    "webpack": "^3.10.0"
   },
   "dependencies": {}
 }
